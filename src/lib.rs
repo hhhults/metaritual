@@ -1,0 +1,22 @@
+pub mod pattern;
+pub mod transform;
+pub mod combine;
+pub mod construct;
+pub mod markov;
+pub mod accumulator;
+pub mod ir;
+pub mod signal;
+pub mod param;
+pub mod bridge;
+pub mod corpus;
+pub mod source;
+pub mod effect;
+pub mod space;
+pub mod patch;
+pub mod synth;
+pub mod rhythm;
+pub mod voicing;
+pub mod harmony;
+
+#[cfg(feature = "play")]
+pub mod play;
