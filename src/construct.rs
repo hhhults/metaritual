@@ -138,7 +138,33 @@ pub const MINOR_7: &[u8] = &[0, 3, 7, 10];
 pub const DOM_7: &[u8] = &[0, 4, 7, 10];
 pub const SUS2: &[u8] = &[0, 2, 7];
 pub const SUS4: &[u8] = &[0, 5, 7];
-pub const ADD9: &[u8] = &[0, 2, 4, 7];
+
+// Extended chords — 9ths, 11ths, 13ths
+pub const MAJ9: &[u8] = &[0, 4, 7, 11, 14];
+pub const MIN9: &[u8] = &[0, 3, 7, 10, 14];
+pub const DOM9: &[u8] = &[0, 4, 7, 10, 14];
+pub const MAJ11: &[u8] = &[0, 4, 7, 11, 14, 17];
+pub const MIN11: &[u8] = &[0, 3, 7, 10, 14, 17];
+pub const DOM11: &[u8] = &[0, 4, 7, 10, 14, 17];
+pub const MAJ13: &[u8] = &[0, 4, 7, 11, 14, 17, 21];
+pub const MIN13: &[u8] = &[0, 3, 7, 10, 14, 17, 21];
+pub const DOM13: &[u8] = &[0, 4, 7, 10, 14, 17, 21];
+
+// Sixth chords
+pub const MAJ6: &[u8] = &[0, 4, 7, 9];
+pub const MIN6: &[u8] = &[0, 3, 7, 9];
+
+// Add chords
+pub const ADD9: &[u8] = &[0, 4, 7, 14];
+pub const ADD11: &[u8] = &[0, 4, 7, 17];
+
+// Power chord
+pub const POWER5: &[u8] = &[0, 7];
+
+// Altered dominants
+pub const DOM7_SHARP9: &[u8] = &[0, 4, 7, 10, 15];
+pub const DOM7_FLAT9: &[u8] = &[0, 4, 7, 10, 13];
+pub const DOM7_SHARP11: &[u8] = &[0, 4, 7, 10, 18];
 
 // ---------------------------------------------------------------------------
 // Scale and chord builders
