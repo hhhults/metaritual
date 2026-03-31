@@ -17,6 +17,7 @@ pub mod synth;
 pub mod rhythm;
 pub mod voicing;
 pub mod harmony;
+pub mod weave;
 
 #[cfg(feature = "play")]
 pub mod play;
